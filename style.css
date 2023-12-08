@@ -7,17 +7,23 @@ body {
     background-image: url("https://fons.pibig.info/uploads/posts/2023-06/thumbs/1685578093_fons-pibig-info-p-myatnii-fon-pinterest-1.jpg");
     background-size: contain;
     text-align: center;
+    padding: 25px;
 }
 
 h1 {
     color: white;
-    border: 5px dotted white;
-    text-align: center;
+    width: 400px;
+    margin: 0 auto 10px;
 }
 
 h2 {
     color: rgb(17, 102, 102);
     text-align: left;
+}
+
+.avatar {
+    width: 200px;
+    border-radius: 50%;
 }
 
 p {
@@ -32,8 +38,6 @@ p {
 }
 
 ul {
-    border-top: 3px dotted white;
-    border-bottom: 3px dotted white;
     text-align: left;
     list-style-type: circle;
     color: white;
@@ -45,11 +49,8 @@ a {
     color: white;
 }
 
-span {
+
+.school {
     color: rgb(17, 102, 102);
     text-decoration: underline;
-}
-
-span.teal a {
-    color: teal;
 }
