@@ -1,56 +1,182 @@
 html {
-    font-size: 25px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+
 }
 
 body {
-    background-image: url("https://fons.pibig.info/uploads/posts/2023-06/thumbs/1685578093_fons-pibig-info-p-myatnii-fon-pinterest-1.jpg");
-    background-size: contain;
     text-align: center;
-    padding: 25px;
-}
-
-h1 {
-    color: white;
-    width: 400px;
-    margin: 0 auto 10px;
-}
-
-h2 {
-    color: rgb(17, 102, 102);
-    text-align: left;
-}
-
-.avatar {
-    width: 200px;
-    border-radius: 50%;
-}
-
-p {
-    font-size: 1rem;
-    font-style: oblique;
-    color: rgb(17, 102, 102);
-    text-align: justify;
-}
-
-.white {
-    color: white;
-}
-
-ul {
-    text-align: left;
-    list-style-type: circle;
-    color: white;
-    font-weight: bolder;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: rgba(17, 85, 81);
 }
 
 a {
     text-decoration: none;
-    color: white;
+    color: #D7A396;
 }
 
+h1 {
+    font-size: 3rem;
+}
 
-.school {
-    color: rgb(17, 102, 102);
-    text-decoration: underline;
+h2 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1rem;
+}
+
+header {
+    padding: 20px 0;
+    background-color: #7aa59b;
+}
+
+.nav {
+    margin-right: 30px;
+    text-align: right;
+}
+
+.nav a {
+    color: #fff;
+
+}
+
+.nav a:not(:last-child)::after {
+    content: "";
+    display: inline-block;
+    width: 30px;
+    height: 1px;
+    background: #fff;
+    margin: 0 45px;
+}
+
+.main-page {
+    background-image: url("https://printwalls.ru/assets/images/products/5421/fotooboi-fusion2-kupit00060.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 200px 0 100px;
+}
+
+.button {
+    display: block;
+    color: #fff;
+    font-size: 0.8rem;
+    width: 200px;
+    height: 30px;
+    background: #dca493;
+    border-radius: 30px;
+    margin: 70px auto 0;
+    line-height: 30px;
+    transition: all .5s ease-in;
+}
+
+.button:hover {
+    color: #fff;
+    background: #347f7b;
+    opacity: .5;
+}
+
+.short-info {
+    padding: 100px 0;
+}
+
+.short-info p {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.my-hobbies {
+    padding: 100px 0;
+    background: #e6e6e6;
+}
+
+.my-hobbies__paragraph {
+    max-width: 800px;
+    margin: 0 auto 30px;
+}
+
+.free-time {
+    display: inline-block;
+    width: calc((100% - 48px) / 2);
+    max-width: 400px;
+    vertical-align: top;
+    background-color: #fff;
+    border-radius: 30px;
+    padding-bottom: 20px;
+}
+
+.free-time:not(:last-child) {
+    margin-right: 48px;
+}
+
+.free-time__paragraph {
+    font-size: 0.8rem;
+}
+
+.web {
+    padding: 100px 0;
+}
+
+.web__paragraph {
+    max-width: 950px;
+    margin: 0 auto;
+}
+
+.footer {
+    padding: 100px 0;
+    background-image: url("./images/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.social-networks {
+    display: flex;
+    justify-content: center;
+}
+
+.social-networks__item {
+    font-size: 1rem;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #347f7b;
+    text-align: center;
+}
+
+.social-networks__item:not(:last-child) {
+    margin-right: 40px;
+}
+
+.social-networks__item:hover {
+    transform: scale(.7);
+    transition: all .5s;
+}
+
+.contacts {
+    margin: 60px 0;
+}
+
+.contacts__link {
+    display: block;
+}
+
+.start {
+    font-size: 2rem;
+    display: block;
+    position: fixed;
+    bottom: 50px;
+    right: 50px;
+}
+
+.start:hover {
+    transform: rotate(360deg);
+    transition: all 1s;
+    color: #347f7b;
+    opacity: 1s;
 }
